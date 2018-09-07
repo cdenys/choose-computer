@@ -1,23 +1,20 @@
-import React, { PureComponent } from 'react'
+import React from 'react'
 
-class Checkbox extends PureComponent {
-  render() {
-    return this.props.responses.map((response, index) => (
-      <div key={response.id}>
-        <label htmlFor={response.id}>
-          <input
-            type={this.props.type}
-            name={this.props.name}
-            id={response.id}
-            value={response.id}
-            onChange={this.props.onChange}
-            defaultChecked={index === 0}
-          />
-          {response.reponse}
-        </label>
-      </div>
-    ))
-  }
-}
+const Checkbox = ({ responses, type, name, onChange, answers }) =>
+  responses.map(response => (
+    <div key={response.id}>
+      <label htmlFor={response.id}>
+        <input
+          type={type}
+          name={name}
+          id={response.id}
+          value={response.id}
+          onChange={onChange}
+          defaultChecked={answers.includes(response.id)}
+        />
+        {response.reponse}
+      </label>
+    </div>
+  ))
 
 export default Checkbox

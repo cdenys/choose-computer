@@ -4,35 +4,22 @@ import Checkbox from './components/Checkbox/Checkbox'
 import Select from './components/Select/Select'
 
 class Answer extends PureComponent {
-  constructor(props) {
-    super(props)
-    this.state = { answers: [] }
-  }
-
-  cb = () => this.props.onChange(this.state.answers)
-
   onChange = e => {
     const { checked, value } = e.target
     const { type } = this.props
+    let newAnswers
     if (type === 'checkbox') {
       if (checked) {
-        this.setState(
-          prevState => ({
-            answers: [...prevState.answers, value],
-          }),
-          this.cb
-        )
+        newAnswers = [...this.props.answers, value]
       } else {
-        this.setState(
-          prevState => ({
-            answers: prevState.answers.filter(oldValue => oldValue !== value),
-          }),
-          this.cb
-        )
+        newAnswers = this.props.answers.filter(oldValue => oldValue !== value)
       }
     } else {
-      this.setState({ answers: [value] }, this.cb)
+      // radio or select
+      newAnswers = [value]
     }
+
+    this.props.onChange(newAnswers)
   }
 
   render() {
