@@ -1,9 +1,9 @@
-import React, { Component } from 'react'
+import React, { PureComponent } from 'react'
 import Answer from '../../components/Answer/Answer'
 import styles from './Home.sass'
 import questionsArray from '../../services/questions'
 
-class Home extends Component {
+class Home extends PureComponent {
   state = {
     questions: questionsArray,
     questionPosition: 0,
@@ -40,22 +40,22 @@ class Home extends Component {
   }
 
   handleChangeValue = e => {
-    const target = e.target
-    if (target.type === 'checkbox') {
-      if (target.checked) {
+    const { type, checked, value } = e.target
+    if (type === 'checkbox') {
+      if (checked) {
         this.setState(prevState => ({
-          answerValue: prevState.answerValue.concat(target.value),
+          answerValue: prevState.answerValue.concat(value),
         }))
       } else {
         this.setState(prevState => ({
           answerValue: [
-            ...prevState.answerValue.slice(0, prevState.answerValue.indexOf(target.value)),
-            ...prevState.answerValue.slice(prevState.answerValue.indexOf(target.value) + 1),
+            ...prevState.answerValue.slice(0, prevState.answerValue.indexOf(value)),
+            ...prevState.answerValue.slice(prevState.answerValue.indexOf(value) + 1),
           ],
         }))
       }
     } else {
-      this.setState({ answerValue: target.value })
+      this.setState({ answerValue: value })
     }
   }
 
@@ -86,14 +86,12 @@ class Home extends Component {
           {this.state.questionPosition === this.state.questionLastIndex ? (
             <button
               type="button"
-              onClick={() => {
-                this.saveAndResult()
-              }}
+              onClick={this.saveAndResult}
             >
               Résultat
             </button>
           ) : (
-            <button type="button" onClick={() => this.saveAndGoTo()}>
+            <button type="button" onClick={this.saveAndGoTo}>
               Suivant
             </button>
           )}

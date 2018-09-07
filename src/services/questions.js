@@ -1,5 +1,5 @@
 // liste de question
-module.exports = [
+export default [
   {
     name: 'transport',
     question: 'Souhaitez-vous deplacer votre ordinateur ?',
@@ -18,7 +18,6 @@ module.exports = [
       { id: 'videogame', reponse: 'Jeux vidéo' },
     ],
   },
-
   {
     name: 'numerique',
     question: 'Souhaitez-vous un pavé numérique ?',
@@ -39,7 +38,6 @@ module.exports = [
       { id: 'nothing', reponse: "Pas d'importance" },
     ],
   },
-
   {
     name: 'prix',
     question: 'Quelle fourchette de prix ?',
