@@ -1,0 +1,6 @@
+/node_modules
+/.git-hooks
+/.github
+/public/assets
+/public/webpack
+registerServiceWorker.js
