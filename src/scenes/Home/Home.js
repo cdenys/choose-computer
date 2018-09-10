@@ -2,6 +2,7 @@ import React, { PureComponent } from 'react'
 import Answer from '../../components/Answer/Answer'
 import styles from './Home.sass'
 import questionsArray from '../../services/questions'
+import Result from "../../components/Result/Result";
 
 const defaultAnswers = questionsArray.map(({ reponses }) => [reponses[0].id])
 defaultAnswers[0] = ['no']
@@ -12,9 +13,25 @@ class Home extends PureComponent {
   state = {
     questionPosition: 0,
     answersUser: defaultAnswers,
+    querySearch: '',
   }
 
   next = () => {
+    // boucle sur les reponses, utilisé pour les checkbox
+    for (let x = 0; x < this.state.answersUser[this.state.questionPosition].length; x += 1) {
+      const answerIndex = questionsArray[this.state.questionPosition].reponses.find(y => y.id === this.state.answersUser[this.state.questionPosition][x])
+      // boucle sur les apikey
+      for(let y = 0; y < answerIndex.apiKey.length; y+=1) {
+          // boucle sur les properties
+          for(const key in answerIndex.apiKey[y]) {
+              if(answerIndex.apiKey[y].hasOwnProperty(key)) {
+                this.state.querySearch += `${answerIndex.apiKey[y][key]} `
+              }
+          }
+      }
+    }
+    console.log(this.state.querySearch);
+
     this.setState(prevState => ({
       ...prevState,
       questionPosition: prevState.questionPosition + 1,
@@ -33,9 +50,7 @@ class Home extends PureComponent {
     if (this.state.questionPosition >= questionsArray.length)
       return (
         <div>
-          {this.state.answersUser.map((value, i) => (
-            <p key={i}>Réponse : {JSON.stringify(value)}</p>
-          ))}
+          <Result answersUser={this.state.answersUser} querySearch={this.state.querySearch} />
         </div>
       )
 
