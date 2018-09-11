@@ -13,6 +13,7 @@ class Home extends PureComponent {
   state = {
     questionPosition: 0,
     answersUser: defaultAnswers,
+    // used if i can access to api amazon
     querySearch: '',
   }
 

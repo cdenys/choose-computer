@@ -2,12 +2,13 @@ import React, { PureComponent } from 'react'
 
 class Result extends PureComponent {
   state = {
-    results: []
+    results: [],
   }
 
   componentDidMount() {
     // i can't access to the api ebay / amazon :(
-    // json-server -p 4000 --watch src/services/db.json
+    // i create a local .json with 6 computers on ebay to try fetch
+    // run server: json-server -p 4000 --watch src/services/db.json
     const url = 'http://localhost:4000/findItemsByKeywordsResponse'
     fetch(url)
       .then(res => {
@@ -16,7 +17,6 @@ class Result extends PureComponent {
         }
       })
       .then(data => {
-        console.log(data[0].searchResult[0].item)
         this.setState({
             results: data[0].searchResult[0].item,
         })
@@ -29,9 +29,16 @@ class Result extends PureComponent {
   render() {
     return (
       <div>
-        {this.props.answersUser.map((value, i) => (
-            <p key={i}>Réponse : {JSON.stringify(value)}</p>
-        ))}
+        {this.state.results.length > 0 ? (
+          this.state.results.map(data => (
+            <div key={data.itemId}>
+              <a href={data.viewItemURL}>{data.title}</a>
+              <img src={data.galleryPlusPictureURL}/>
+            </div>
+          ))
+        ) : (
+          <p>Chargement des offres</p>
+        )}
       </div>
     )
   }
