@@ -30,7 +30,6 @@ class Home extends PureComponent {
           }
       }
     }
-    console.log(this.state.querySearch);
 
     this.setState(prevState => ({
       ...prevState,
