@@ -20,16 +20,8 @@ class Home extends PureComponent {
   next = () => {
     // boucle sur les reponses, utilisé pour les checkbox
     for (let x = 0; x < this.state.answersUser[this.state.questionPosition].length; x += 1) {
-      const answerIndex = questionsArray[this.state.questionPosition].reponses.find(y => y.id === this.state.answersUser[this.state.questionPosition][x])
-      // boucle sur les apikey
-      for(let y = 0; y < answerIndex.apiKey.length; y+=1) {
-          // boucle sur les properties
-          for(const key in answerIndex.apiKey[y]) {
-              if(answerIndex.apiKey[y].hasOwnProperty(key)) {
-                this.state.querySearch += `${answerIndex.apiKey[y][key]} `
-              }
-          }
-      }
+      const answer = questionsArray[this.state.questionPosition].reponses.find(y => y.id === this.state.answersUser[this.state.questionPosition][x])
+      this.state.querySearch += `${answer.apiKey} `
     }
 
     this.setState(prevState => ({
