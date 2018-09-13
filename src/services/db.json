@@ -1,0 +1,798 @@
+{
+    "findItemsByKeywordsResponse": [
+        {
+            "ack": [
+                "Success"
+            ],
+            "version": [
+                "1.13.0"
+            ],
+            "timestamp": [
+                "2018-09-11T13:30:43.298Z"
+            ],
+            "searchResult": [
+                {
+                    "@count": "6",
+                    "item": [
+                        {
+                            "itemId": [
+                                "323435582387"
+                            ],
+                            "title": [
+                                "PC ORDINATEUR DE BUREAU  lenovo M10AH dual core 3,2ghz , 4 a 8go de  RAM"
+                            ],
+                            "globalId": [
+                                "EBAY-FR"
+                            ],
+                            "primaryCategory": [
+                                {
+                                    "categoryId": [
+                                        "179"
+                                    ],
+                                    "categoryName": [
+                                        "PC de bureau"
+                                    ]
+                                }
+                            ],
+                            "galleryURL": [
+                                "http://thumbs4.ebaystatic.com/m/mbeIvd7OvfMkL-cg4FYIelQ/140.jpg"
+                            ],
+                            "viewItemURL": [
+                                "http://www.ebay.fr/itm/PC-ORDINATEUR-DE-BUREAU-lenovo-M10AH-dual-core-3-2ghz-4-a-8go-de-RAM-/323435582387"
+                            ],
+                            "paymentMethod": [
+                                "PayPal",
+                                "PersonalCheck",
+                                "VisaMC"
+                            ],
+                            "autoPay": [
+                                "false"
+                            ],
+                            "postalCode": [
+                                "49240"
+                            ],
+                            "location": [
+                                "Avrillé,France"
+                            ],
+                            "country": [
+                                "FR"
+                            ],
+                            "shippingInfo": [
+                                {
+                                    "shippingServiceCost": [
+                                        {
+                                            "@currencyId": "EUR",
+                                            "__value__": "10.0"
+                                        }
+                                    ],
+                                    "shippingType": [
+                                        "Flat"
+                                    ],
+                                    "shipToLocations": [
+                                        "Worldwide"
+                                    ]
+                                }
+                            ],
+                            "sellingStatus": [
+                                {
+                                    "currentPrice": [
+                                        {
+                                            "@currencyId": "EUR",
+                                            "__value__": "65.0"
+                                        }
+                                    ],
+                                    "convertedCurrentPrice": [
+                                        {
+                                            "@currencyId": "EUR",
+                                            "__value__": "65.0"
+                                        }
+                                    ],
+                                    "sellingState": [
+                                        "Active"
+                                    ],
+                                    "timeLeft": [
+                                        "P26DT20H20M36S"
+                                    ]
+                                }
+                            ],
+                            "listingInfo": [
+                                {
+                                    "bestOfferEnabled": [
+                                        "true"
+                                    ],
+                                    "buyItNowAvailable": [
+                                        "false"
+                                    ],
+                                    "startTime": [
+                                        "2018-09-08T09:51:19.000Z"
+                                    ],
+                                    "endTime": [
+                                        "2018-10-08T09:51:19.000Z"
+                                    ],
+                                    "listingType": [
+                                        "FixedPrice"
+                                    ],
+                                    "gift": [
+                                        "false"
+                                    ],
+                                    "watchCount": [
+                                        "1"
+                                    ]
+                                }
+                            ],
+                            "galleryPlusPictureURL": [
+                                "http://galleryplus.ebayimg.com/ws/web/323435582387_1_0_1.jpg"
+                            ],
+                            "condition": [
+                                {
+                                    "conditionId": [
+                                        "3000"
+                                    ],
+                                    "conditionDisplayName": [
+                                        "Occasion"
+                                    ]
+                                }
+                            ],
+                            "isMultiVariationListing": [
+                                "false"
+                            ],
+                            "topRatedListing": [
+                                "false"
+                            ]
+                        },
+                        {
+                            "itemId": [
+                                "192434210411"
+                            ],
+                            "title": [
+                                "PC HP 6005 Pro SFF AMD CONFIGURATIONS MULTIPLES"
+                            ],
+                            "globalId": [
+                                "EBAY-FR"
+                            ],
+                            "primaryCategory": [
+                                {
+                                    "categoryId": [
+                                        "179"
+                                    ],
+                                    "categoryName": [
+                                        "PC de bureau"
+                                    ]
+                                }
+                            ],
+                            "galleryURL": [
+                                "http://thumbs1.ebaystatic.com/pict/04040_0.jpg"
+                            ],
+                            "viewItemURL": [
+                                "http://www.ebay.fr/itm/PC-HP-6005-Pro-SFF-AMD-CONFIGURATIONS-MULTIPLES-/192434210411?var=0"
+                            ],
+                            "paymentMethod": [
+                                "PayPal"
+                            ],
+                            "autoPay": [
+                                "true"
+                            ],
+                            "postalCode": [
+                                "18170"
+                            ],
+                            "location": [
+                                "Ardenais,France"
+                            ],
+                            "country": [
+                                "FR"
+                            ],
+                            "shippingInfo": [
+                                {
+                                    "shippingServiceCost": [
+                                        {
+                                            "@currencyId": "EUR",
+                                            "__value__": "0.0"
+                                        }
+                                    ],
+                                    "shippingType": [
+                                        "Free"
+                                    ],
+                                    "shipToLocations": [
+                                        "Worldwide"
+                                    ]
+                                }
+                            ],
+                            "sellingStatus": [
+                                {
+                                    "currentPrice": [
+                                        {
+                                            "@currencyId": "EUR",
+                                            "__value__": "55.0"
+                                        }
+                                    ],
+                                    "convertedCurrentPrice": [
+                                        {
+                                            "@currencyId": "EUR",
+                                            "__value__": "55.0"
+                                        }
+                                    ],
+                                    "sellingState": [
+                                        "Active"
+                                    ],
+                                    "timeLeft": [
+                                        "P7DT7H12M1S"
+                                    ]
+                                }
+                            ],
+                            "listingInfo": [
+                                {
+                                    "bestOfferEnabled": [
+                                        "false"
+                                    ],
+                                    "buyItNowAvailable": [
+                                        "false"
+                                    ],
+                                    "startTime": [
+                                        "2018-01-21T20:42:44.000Z"
+                                    ],
+                                    "endTime": [
+                                        "2018-09-18T20:42:44.000Z"
+                                    ],
+                                    "listingType": [
+                                        "StoreInventory"
+                                    ],
+                                    "gift": [
+                                        "false"
+                                    ],
+                                    "watchCount": [
+                                        "72"
+                                    ]
+                                }
+                            ],
+                            "condition": [
+                                {
+                                    "conditionId": [
+                                        "3000"
+                                    ],
+                                    "conditionDisplayName": [
+                                        "Occasion"
+                                    ]
+                                }
+                            ],
+                            "isMultiVariationListing": [
+                                "true"
+                            ],
+                            "topRatedListing": [
+                                "true"
+                            ]
+                        },
+                        {
+                            "itemId": [
+                                "153059421210"
+                            ],
+                            "title": [
+                                "ORDINATEUR PC COMPLET DELL 15/17/19/22/23/24/27 POUCES WIFI 4GO/8GO WINDOWS 7 "
+                            ],
+                            "globalId": [
+                                "EBAY-FR"
+                            ],
+                            "subtitle": [
+                                "VENDEUR FRANÇAIS - EXPÉDITION SOUS 24/48H"
+                            ],
+                            "primaryCategory": [
+                                {
+                                    "categoryId": [
+                                        "179"
+                                    ],
+                                    "categoryName": [
+                                        "PC de bureau"
+                                    ]
+                                }
+                            ],
+                            "galleryURL": [
+                                "http://thumbs1.ebaystatic.com/pict/04040_0.jpg"
+                            ],
+                            "viewItemURL": [
+                                "http://www.ebay.fr/itm/ORDINATEUR-PC-COMPLET-DELL-15-17-19-22-23-24-27-POUCES-WIFI-4GO-8GO-WINDOWS-7-/153059421210?var=0"
+                            ],
+                            "paymentMethod": [
+                                "PayPal",
+                                "PersonalCheck",
+                                "MoneyXferAccepted"
+                            ],
+                            "autoPay": [
+                                "false"
+                            ],
+                            "postalCode": [
+                                "35000"
+                            ],
+                            "location": [
+                                "Rennes,France"
+                            ],
+                            "country": [
+                                "FR"
+                            ],
+                            "shippingInfo": [
+                                {
+                                    "shippingServiceCost": [
+                                        {
+                                            "@currencyId": "EUR",
+                                            "__value__": "0.0"
+                                        }
+                                    ],
+                                    "shippingType": [
+                                        "Free"
+                                    ],
+                                    "shipToLocations": [
+                                        "Worldwide"
+                                    ]
+                                }
+                            ],
+                            "sellingStatus": [
+                                {
+                                    "currentPrice": [
+                                        {
+                                            "@currencyId": "EUR",
+                                            "__value__": "99.99"
+                                        }
+                                    ],
+                                    "convertedCurrentPrice": [
+                                        {
+                                            "@currencyId": "EUR",
+                                            "__value__": "99.99"
+                                        }
+                                    ],
+                                    "sellingState": [
+                                        "Active"
+                                    ],
+                                    "timeLeft": [
+                                        "P29DT1H19M10S"
+                                    ]
+                                }
+                            ],
+                            "listingInfo": [
+                                {
+                                    "bestOfferEnabled": [
+                                        "false"
+                                    ],
+                                    "buyItNowAvailable": [
+                                        "false"
+                                    ],
+                                    "startTime": [
+                                        "2018-06-12T14:49:53.000Z"
+                                    ],
+                                    "endTime": [
+                                        "2018-10-10T14:49:53.000Z"
+                                    ],
+                                    "listingType": [
+                                        "StoreInventory"
+                                    ],
+                                    "gift": [
+                                        "false"
+                                    ],
+                                    "watchCount": [
+                                        "18"
+                                    ]
+                                }
+                            ],
+                            "condition": [
+                                {
+                                    "conditionId": [
+                                        "2500"
+                                    ],
+                                    "conditionDisplayName": [
+                                        "Reconditionné par le vendeur"
+                                    ]
+                                }
+                            ],
+                            "isMultiVariationListing": [
+                                "true"
+                            ],
+                            "topRatedListing": [
+                                "false"
+                            ]
+                        },
+                        {
+                            "itemId": [
+                                "153042675693"
+                            ],
+                            "title": [
+                                "UNITÉ CENTRALE/UC/TOUR/ORDINATEUR DELL 360 / WIFI 160Go 4Go DDR2 WIN 7"
+                            ],
+                            "globalId": [
+                                "EBAY-FR"
+                            ],
+                            "subtitle": [
+                                "CLAVIER, SOURIS, CLÉ WIFI, TAPIS DE SOURIS OFFERTS"
+                            ],
+                            "primaryCategory": [
+                                {
+                                    "categoryId": [
+                                        "179"
+                                    ],
+                                    "categoryName": [
+                                        "PC de bureau"
+                                    ]
+                                }
+                            ],
+                            "galleryURL": [
+                                "http://thumbs2.ebaystatic.com/m/mV1XPfEFQsGkc3lnzLTx3vg/140.jpg"
+                            ],
+                            "viewItemURL": [
+                                "http://www.ebay.fr/itm/UNITE-CENTRALE-UC-TOUR-ORDINATEUR-DELL-360-WIFI-160Go-4Go-DDR2-WIN-7-/153042675693"
+                            ],
+                            "paymentMethod": [
+                                "PayPal",
+                                "PersonalCheck",
+                                "MoneyXferAccepted"
+                            ],
+                            "autoPay": [
+                                "false"
+                            ],
+                            "postalCode": [
+                                "35000"
+                            ],
+                            "location": [
+                                "Rennes,France"
+                            ],
+                            "country": [
+                                "FR"
+                            ],
+                            "shippingInfo": [
+                                {
+                                    "shippingServiceCost": [
+                                        {
+                                            "@currencyId": "EUR",
+                                            "__value__": "0.0"
+                                        }
+                                    ],
+                                    "shippingType": [
+                                        "Free"
+                                    ],
+                                    "shipToLocations": [
+                                        "Worldwide"
+                                    ]
+                                }
+                            ],
+                            "sellingStatus": [
+                                {
+                                    "currentPrice": [
+                                        {
+                                            "@currencyId": "EUR",
+                                            "__value__": "79.99"
+                                        }
+                                    ],
+                                    "convertedCurrentPrice": [
+                                        {
+                                            "@currencyId": "EUR",
+                                            "__value__": "79.99"
+                                        }
+                                    ],
+                                    "sellingState": [
+                                        "Active"
+                                    ],
+                                    "timeLeft": [
+                                        "P16DT0H52M52S"
+                                    ]
+                                }
+                            ],
+                            "listingInfo": [
+                                {
+                                    "bestOfferEnabled": [
+                                        "false"
+                                    ],
+                                    "buyItNowAvailable": [
+                                        "false"
+                                    ],
+                                    "startTime": [
+                                        "2018-05-30T14:23:35.000Z"
+                                    ],
+                                    "endTime": [
+                                        "2018-09-27T14:23:35.000Z"
+                                    ],
+                                    "listingType": [
+                                        "StoreInventory"
+                                    ],
+                                    "gift": [
+                                        "false"
+                                    ],
+                                    "watchCount": [
+                                        "66"
+                                    ]
+                                }
+                            ],
+                            "galleryPlusPictureURL": [
+                                "http://galleryplus.ebayimg.com/ws/web/153042675693_1_1_1.jpg"
+                            ],
+                            "condition": [
+                                {
+                                    "conditionId": [
+                                        "2500"
+                                    ],
+                                    "conditionDisplayName": [
+                                        "Reconditionné par le vendeur"
+                                    ]
+                                }
+                            ],
+                            "isMultiVariationListing": [
+                                "false"
+                            ],
+                            "topRatedListing": [
+                                "false"
+                            ]
+                        },
+                        {
+                            "itemId": [
+                                "192568199900"
+                            ],
+                            "title": [
+                                "PC COMPUTER DA GIOCO GAMING QUAD CORE i5-3470 RAM 8GB HDD 500GB NVIDIA GT710 2GB"
+                            ],
+                            "globalId": [
+                                "EBAY-IT"
+                            ],
+                            "subtitle": [
+                                "OFFERTA VALIDA FINO AL 15/09"
+                            ],
+                            "primaryCategory": [
+                                {
+                                    "categoryId": [
+                                        "179"
+                                    ],
+                                    "categoryName": [
+                                        "Desktop PC"
+                                    ]
+                                }
+                            ],
+                            "galleryURL": [
+                                "http://thumbs1.ebaystatic.com/m/m6sBLTV8lignxlEpd3UMsIg/140.jpg"
+                            ],
+                            "viewItemURL": [
+                                "http://www.ebay.fr/itm/PC-COMPUTER-DA-GIOCO-GAMING-QUAD-CORE-i5-3470-RAM-8GB-HDD-500GB-NVIDIA-GT710-2GB-/192568199900"
+                            ],
+                            "paymentMethod": [
+                                "CIPInCheckoutEnabled",
+                                "MOCC",
+                                "PayPal",
+                                "VisaMC",
+                                "AmEx",
+                                "COD",
+                                "PaymentSeeDescription",
+                                "MoneyXferAccepted"
+                            ],
+                            "autoPay": [
+                                "false"
+                            ],
+                            "postalCode": [
+                                "84020"
+                            ],
+                            "location": [
+                                "Italie"
+                            ],
+                            "country": [
+                                "IT"
+                            ],
+                            "shippingInfo": [
+                                {
+                                    "shippingServiceCost": [
+                                        {
+                                            "@currencyId": "EUR",
+                                            "__value__": "10.0"
+                                        }
+                                    ],
+                                    "shippingType": [
+                                        "Flat"
+                                    ],
+                                    "shipToLocations": [
+                                        "Worldwide"
+                                    ]
+                                }
+                            ],
+                            "sellingStatus": [
+                                {
+                                    "currentPrice": [
+                                        {
+                                            "@currencyId": "EUR",
+                                            "__value__": "229.9"
+                                        }
+                                    ],
+                                    "convertedCurrentPrice": [
+                                        {
+                                            "@currencyId": "EUR",
+                                            "__value__": "229.9"
+                                        }
+                                    ],
+                                    "sellingState": [
+                                        "Active"
+                                    ],
+                                    "timeLeft": [
+                                        "P0DT19H37M4S"
+                                    ]
+                                }
+                            ],
+                            "listingInfo": [
+                                {
+                                    "bestOfferEnabled": [
+                                        "false"
+                                    ],
+                                    "buyItNowAvailable": [
+                                        "false"
+                                    ],
+                                    "startTime": [
+                                        "2018-06-14T09:07:47.000Z"
+                                    ],
+                                    "endTime": [
+                                        "2018-09-12T09:07:47.000Z"
+                                    ],
+                                    "listingType": [
+                                        "StoreInventory"
+                                    ],
+                                    "gift": [
+                                        "false"
+                                    ],
+                                    "watchCount": [
+                                        "244"
+                                    ]
+                                }
+                            ],
+                            "galleryPlusPictureURL": [
+                                "http://galleryplus.ebayimg.com/ws/web/192568199900_1_1_1.jpg"
+                            ],
+                            "condition": [
+                                {
+                                    "conditionId": [
+                                        "2000"
+                                    ],
+                                    "conditionDisplayName": [
+                                        "Reconditionné par le fabricant"
+                                    ]
+                                }
+                            ],
+                            "isMultiVariationListing": [
+                                "false"
+                            ],
+                            "topRatedListing": [
+                                "true"
+                            ]
+                        },
+                        {
+                            "itemId": [
+                                "123355880932"
+                            ],
+                            "title": [
+                                "ordinateur portable"
+                            ],
+                            "globalId": [
+                                "EBAY-FR"
+                            ],
+                            "primaryCategory": [
+                                {
+                                    "categoryId": [
+                                        "179"
+                                    ],
+                                    "categoryName": [
+                                        "PC de bureau"
+                                    ]
+                                }
+                            ],
+                            "galleryURL": [
+                                "http://thumbs1.ebaystatic.com/m/mD_xoNH4d9feL2r1jqIdosQ/140.jpg"
+                            ],
+                            "viewItemURL": [
+                                "http://www.ebay.fr/itm/ordinateur-portable-/123355880932"
+                            ],
+                            "paymentMethod": [
+                                "PayPal"
+                            ],
+                            "autoPay": [
+                                "false"
+                            ],
+                            "postalCode": [
+                                "67100"
+                            ],
+                            "location": [
+                                "Strasbourg,France"
+                            ],
+                            "country": [
+                                "FR"
+                            ],
+                            "shippingInfo": [
+                                {
+                                    "shippingServiceCost": [
+                                        {
+                                            "@currencyId": "EUR",
+                                            "__value__": "15.0"
+                                        }
+                                    ],
+                                    "shippingType": [
+                                        "Flat"
+                                    ],
+                                    "shipToLocations": [
+                                        "Worldwide"
+                                    ]
+                                }
+                            ],
+                            "sellingStatus": [
+                                {
+                                    "currentPrice": [
+                                        {
+                                            "@currencyId": "EUR",
+                                            "__value__": "50.0"
+                                        }
+                                    ],
+                                    "convertedCurrentPrice": [
+                                        {
+                                            "@currencyId": "EUR",
+                                            "__value__": "50.0"
+                                        }
+                                    ],
+                                    "sellingState": [
+                                        "Active"
+                                    ],
+                                    "timeLeft": [
+                                        "P25DT17H10M42S"
+                                    ]
+                                }
+                            ],
+                            "listingInfo": [
+                                {
+                                    "bestOfferEnabled": [
+                                        "true"
+                                    ],
+                                    "buyItNowAvailable": [
+                                        "false"
+                                    ],
+                                    "startTime": [
+                                        "2018-09-07T06:41:25.000Z"
+                                    ],
+                                    "endTime": [
+                                        "2018-10-07T06:41:25.000Z"
+                                    ],
+                                    "listingType": [
+                                        "FixedPrice"
+                                    ],
+                                    "gift": [
+                                        "false"
+                                    ]
+                                }
+                            ],
+                            "galleryPlusPictureURL": [
+                                "http://galleryplus.ebayimg.com/ws/web/123355880932_1_0_1.jpg"
+                            ],
+                            "condition": [
+                                {
+                                    "conditionId": [
+                                        "3000"
+                                    ],
+                                    "conditionDisplayName": [
+                                        "Occasion"
+                                    ]
+                                }
+                            ],
+                            "isMultiVariationListing": [
+                                "false"
+                            ],
+                            "topRatedListing": [
+                                "false"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "paginationOutput": [
+                {
+                    "pageNumber": [
+                        "1"
+                    ],
+                    "entriesPerPage": [
+                        "6"
+                    ],
+                    "totalPages": [
+                        "511791"
+                    ],
+                    "totalEntries": [
+                        "3070746"
+                    ]
+                }
+            ],
+            "itemSearchURL": [
+                "http://www.ebay.fr/sch/i.html?_nkw=ordinateur&_ddo=1&_ipg=6&_pgn=1"
+            ]
+        }
+    ]
+}
